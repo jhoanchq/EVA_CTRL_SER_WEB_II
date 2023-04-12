@@ -2,7 +2,8 @@
 Cree un archivo index.php y agregue el siguiente código:**
 
 
-```<?php
+```PHP
+<?php
 // Configuración de cabeceras HTTP
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
@@ -33,7 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     // Código para manejar solicitudes DELETE
     $response = array('mensaje' => 'Solicitud DELETE recibida');
     echo json_encode($response);
-}```
+}
+```
 
 
 **Este archivo establece las cabeceras HTTP necesarias para permitir solicitudes desde cualquier origen y devuelve una respuesta en formato JSON.
