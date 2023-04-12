@@ -2,7 +2,7 @@
 
 1. Cree un archivo index.php y agregue el siguiente código:**
 
-`<?php
+```<?php
 // Configuración de cabeceras HTTP
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     // Devolver la respuesta en formato JSON
     $response = array('resultado' => $resultado);
     echo json_encode($response);
-}`
+}```
 
 
 **Este archivo establece las cabeceras HTTP necesarias para permitir solicitudes desde cualquier origen y recibe los parámetros de la solicitud GET, que incluyen el tipo de operación matemática (suma, resta, multiplicación o división) y los dos números que se van a operar. Luego, resuelve la operación matemática y devuelve el resultado en formato JSON.
