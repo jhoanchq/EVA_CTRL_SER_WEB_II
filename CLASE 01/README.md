@@ -1,7 +1,5 @@
-**
-Para crear una API REST básica en PHP, siga estos pasos
-Cree un archivo index.php y agregue el siguiente código:
-**
+**Para crear una API REST básica en PHP, siga estos pasos**
+**Cree un archivo index.php y agregue el siguiente código:**
 
 
 ```PHP
@@ -40,12 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
 ```
 
 
-**
-Este archivo establece las cabeceras HTTP necesarias para permitir solicitudes desde cualquier origen y devuelve una respuesta en formato JSON.
+**Este archivo establece las cabeceras HTTP necesarias para permitir solicitudes desde cualquier origen y devuelve una respuesta en formato JSON.**
 
-1. Ejecute el archivo index.php en un servidor web.
+**1. Ejecute el archivo index.php en un servidor web.**
 
-2. Pruebe la API REST utilizando herramientas como Postman o cURL. Por ejemplo, para probar una solicitud GET, abra Postman y cree una solicitud GET con la URL del servidor web que aloja la API REST.
+**2. Pruebe la API REST utilizando herramientas como Postman o cURL. Por ejemplo, para probar una solicitud GET, abra Postman y cree una solicitud GET con la URL del servidor web que aloja la API REST.**
 
-Eso es todo. Ahora tiene una API REST básica en PHP.
-**
+**Eso es todo. Ahora tiene una API REST básica en PHP.**
